@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Titre par défaut (utilisé si la page n'a pas encore injecté son Helmet) -->
+    <title>Bati Pro - Construction, Rénovation & Génie Civil à Yaoundé</title>
+    <meta name="description" content="Entreprise générale de bâtiment et travaux publics à Yaoundé. Devis gratuit pour vos projets de construction." />
+
+    <!-- Polices Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Données structurées (Schema.org) pour le BTP - BIEN DANS LE HEAD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "TC BTP",
+  "image": "https://bati-pro-kappa.vercel.app/assets/logo.png",
+  "priceRange": "cfa",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Votre Quartier / Rue",
+    "addressLocality": "Yaoundé",
+    "postalCode": "00000",
+    "addressCountry": "CM"
+  },
+  "telephone": "+237699633882"
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

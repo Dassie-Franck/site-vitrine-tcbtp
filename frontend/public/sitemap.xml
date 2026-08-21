@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Accueil -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/services</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Réalisations -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/realisation</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Matériel -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/materiel</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/blog</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://bati-pro-kappa.vercel.app/contact</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>

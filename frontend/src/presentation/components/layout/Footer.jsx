@@ -189,7 +189,7 @@ export function Footer() {
                     Email :
                   </Typography>
                   <Typography variant="body2" sx={{ color: "#CBD5E1", fontSize: 13, mt: 0.3 }}>
-                   contact@talem-construction-btp.com
+                    contact@talem-construction-btp.com
                   </Typography>
                 </Box>
               </Box>
@@ -199,10 +199,38 @@ export function Footer() {
 
         <Divider sx={{ borderColor: "rgba(255, 255, 255, 0.08)", mb: 3 }} />
 
-        {/* Bas de page / Copyright */}
-        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        {/* Bas de page / Copyright & MPERYX */}
+        <Box 
+          sx={{ 
+            display: "flex", 
+            justifyContent: "space-between", 
+            alignItems: "center", 
+            flexDirection: { xs: "column", sm: "row" }, 
+            gap: 2,
+            textAlign: { xs: "center", sm: "left" } 
+          }}
+        >
           <Typography variant="body2" sx={{ color: "#CBD5E1", fontSize: 13 }}>
             Copyright © {new Date().getFullYear()} TC BTP. Tous droits réservés.
+          </Typography>
+
+          <Typography variant="body2" sx={{ color: "#CBD5E1", fontSize: 13 }}>
+            Conçu et développé par{" "}
+            <Link
+              href="https://www.mperyx.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                color: themeColors.primary,
+                fontWeight: 600,
+                textDecoration: "none",
+                "&:hover": {
+                  textDecoration: "underline",
+                },
+              }}
+            >
+              MPERYX
+            </Link>
           </Typography>
         </Box>
       </Container>
@@ -212,13 +240,13 @@ export function Footer() {
         sx={{
           position: "fixed",
           bottom: 24,
-          left: 24, // Fixé à gauche pour le bouton WhatsApp
+          left: 24,
           right: 24,
           display: "flex",
-          justifyContent: "space-between", // Sépare les deux boutons de chaque côté (gauche / droite)
+          justifyContent: "space-between",
           alignItems: "center",
           zIndex: 1000,
-          pointerEvents: "none", // Permet de cliquer à travers la zone vide entre les deux
+          pointerEvents: "none",
         }}
       >
         {/* Bouton WhatsApp Flottant (à gauche) */}
@@ -234,7 +262,7 @@ export function Footer() {
             width: 56,
             height: 56,
             boxShadow: "0px 4px 14px rgba(37, 211, 102, 0.4)",
-            pointerEvents: "auto", // Réactive les clics sur le bouton
+            pointerEvents: "auto",
             "&:hover": {
               bgcolor: "#20ba5a",
               transform: "scale(1.05)",
@@ -256,7 +284,7 @@ export function Footer() {
             width: 40,
             height: 40,
             boxShadow: "0px 4px 10px rgba(217, 119, 6, 0.3)",
-            pointerEvents: "auto", // Réactive les clics sur le bouton
+            pointerEvents: "auto",
             "&:hover": { bgcolor: themeColors.primaryHover, transform: "translateY(-2px)" },
             transition: "all 0.2s ease",
           }}
